@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* ==================== SHORT BUTTONS ======================== */
+  /* Default Button */
+  .default-btn {
+    @apply bg-primary-blue text-neutral-white h-[46px] w-[120px] rounded-lg font-semibold;
+  }
+
+  /* Hover State */
+  .default-btn:hover {
+    @apply bg-primary-blue-dark;
+  }
+
+  /* Negative Button */
+  .negative-btn {
+    @apply bg-accent-red text-neutral-white h-[46px] w-[120px] rounded-lg font-semibold;
+  }
+
+  .negative-btn:hover {
+    @apply bg-accent-red-lighter
+  }
+
+  /* Disabled Button */
+  .disabled-btn {
+    @apply bg-neutral-200 text-neutral-400 h-[46px] w-[120px] rounded-lg cursor-not-allowed;
+  }
+
+  /* Loading Button */
+  .loading-btn {
+    @apply bg-primary-blue text-neutral-white h-[46px] w-[120px] rounded-lg font-semibold flex items-center justify-center;
+  }
+
+  /* Loader Spinner */
+  .loading-spinner {
+    @apply animate-spin;
+  }
+
+  /* Success Button */
+  .success-btn {
+    @apply bg-primary-blue text-neutral-white h-[46px] w-[120px] rounded-lg font-semibold;
+  }
+
+  /* ====================== LONG BUTTONS ======================= */
+
+  /* Default Long Button */
+  .long-btn {
+    @apply bg-primary-blue text-neutral-white h-[46px] w-[212px] rounded-lg font-semibold;
+  }
+
+  /* Hover State */
+  .long-btn:hover {
+    @apply bg-primary-blue-dark;
+  }
+
+  /* Negative Long Button */
+  .long-negative-btn {
+    @apply bg-accent-red text-neutral-white h-[46px] w-[212px] rounded-lg font-semibold;
+  }
+
+  .long-negative-btn:hover {
+    @apply bg-accent-red-lighter
+  }
+
+  /* Disabled Long Button */
+  .long-disabled-btn {
+    @apply bg-neutral-200 text-neutral-400 h-[46px] w-[212px] rounded-lg cursor-not-allowed;
+  }
+
+  /* Loading Long Button */
+  .long-loading-btn {
+    @apply bg-primary-blue text-neutral-white h-[46px] w-[212px] rounded-lg font-semibold flex items-center justify-center;
+  }
+
+  /* Loader Spinner */
+  .long-loading-spinner {
+    @apply animate-spin;
+  }
+
+  /* Success Long Button */
+  .long-success-btn {
+    @apply bg-primary-blue text-neutral-white h-[46px] w-[212px] rounded-lg font-semibold;
+  }
+
+  /* ==================== SHORT BUTTONS ======================== */
+
+  /* Default Bordered Button */
+  .border-default-btn {
+    @apply border border-primary-blue text-primary-blue h-[46px] w-[120px] rounded-lg font-semibold bg-transparent;
+  }
+
+  /* Hover State */
+  .border-default-btn:hover {
+    @apply bg-primary-blue text-neutral-white;
+  }
+
+  /* Negative Bordered Button */
+  .border-negative-btn {
+    @apply border border-accent-red text-accent-red h-[46px] w-[120px] rounded-lg font-semibold bg-transparent;
+  }
+
+  /* Hover State */
+  .border-negative-btn:hover {
+    @apply bg-accent-red text-neutral-white;
+  }
+
+  /* Disabled Bordered Button */
+  .border-disabled-btn {
+    @apply border border-neutral-200 text-neutral-400 h-[46px] w-[120px] rounded-lg bg-transparent cursor-not-allowed;
+  }
+
+  /* Loading Bordered Button */
+  .border-loading-btn {
+    @apply border border-primary-blue text-primary-blue h-[46px] w-[120px] rounded-lg font-semibold flex items-center justify-center bg-transparent;
+  }
+
+  /* Loader Spinner */
+  .border-loading-spinner {
+    @apply animate-spin;
+  }
+
+  /* Success Bordered Button */
+  .border-success-btn {
+    @apply border border-primary-blue text-primary-blue h-[46px] w-[120px] rounded-lg font-semibold bg-transparent;
+  }
+
+  /* Hover State */
+  .border-success-btn:hover {
+    @apply bg-primary-blue text-neutral-white;
+  }
+
+  /* ====================== LONG BUTTONS ======================= */
+
+  /* Default Long Bordered Button */
+  .border-long-btn {
+    @apply border border-primary-blue text-primary-blue h-[46px] w-[212px] rounded-lg font-semibold bg-transparent;
+  }
+
+  /* Hover State */
+  .border-long-btn:hover {
+    @apply bg-primary-blue text-neutral-white;
+  }
+
+  /* Negative Long Bordered Button */
+  .border-long-negative-btn {
+    @apply border border-accent-red text-accent-red h-[46px] w-[212px] rounded-lg font-semibold bg-transparent;
+  }
+
+  /* Hover State */
+  .border-long-negative-btn:hover {
+    @apply bg-accent-red text-neutral-white;
+  }
+
+  /* Disabled Long Bordered Button */
+  .border-long-disabled-btn {
+    @apply border border-neutral-200 text-neutral-400 h-[46px] w-[212px] rounded-lg bg-transparent cursor-not-allowed;
+  }
+
+  /* Loading Long Bordered Button */
+  .border-long-loading-btn {
+    @apply border border-primary-blue text-primary-blue h-[46px] w-[212px] rounded-lg font-semibold flex items-center justify-center bg-transparent;
+  }
+
+  /* Loader Spinner */
+  .border-long-loading-spinner {
+    @apply animate-spin;
+  }
+
+  /* Success Long Bordered Button */
+  .border-long-success-btn {
+    @apply border border-primary-blue text-primary-blue h-[46px] w-[212px] rounded-lg font-semibold bg-transparent;
+  }
+
+  /* Hover State */
+  .border-long-success-btn:hover {
+    @apply bg-primary-blue text-neutral-white;
+  }
+}
